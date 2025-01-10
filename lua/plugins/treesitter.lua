@@ -32,6 +32,7 @@ return {
       "yaml",
       "go",
       "css",
+      "svelte",
     },
     incremental_selection = {
       enable = true,
