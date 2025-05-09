@@ -10,6 +10,11 @@ A simple Neovim configuration with LSP support, autompletion, and bunch of usefu
 git clone https://github.com/radeqq007/nvim-config ~/.config/nvim
 ```
 
+2. Clone the [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) repository into your packages directory:
+```bash
+git clone https://github.com/neovim/nvim-lspconfig ~/.config/nvim/pack/nvim/start/nvim-lspconfig
+```
+
 2. Start Neovim
 
 ## Key Mappings
