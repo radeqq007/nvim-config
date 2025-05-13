@@ -31,8 +31,8 @@ git clone https://github.com/neovim/nvim-lspconfig ~/.config/nvim/pack/nvim/star
 - [lazy.nvim](https://github.com/folke/lazy.nvim) - Plugin manager
 - [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) - Fuzzy finder
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - Syntax highlighting
-- [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) - LSP configuration
-- [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) - Completion engine
+- [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) - LSP configuration [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) - Completion engine
 - [copilot.vim](https://github.com/github/copilot.vim) - GitHub Copilot
 - [gruvbox.nvim](https://github.com/ellisonleao/gruvbox.nvim) - Color scheme
 - [vim-wakatime](https://github.com/wakatime/vim-wakatime) - Wakatime tracking
+- [autopairs](https://github.com/windwp/nvim-autopairs) - auto pair 
