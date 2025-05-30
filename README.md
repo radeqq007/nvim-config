@@ -35,4 +35,4 @@ git clone https://github.com/neovim/nvim-lspconfig ~/.config/nvim/pack/nvim/star
 - [copilot.vim](https://github.com/github/copilot.vim) - GitHub Copilot
 - [gruvbox.nvim](https://github.com/ellisonleao/gruvbox.nvim) - Color scheme
 - [vim-wakatime](https://github.com/wakatime/vim-wakatime) - Wakatime tracking
-- [autopairs](https://github.com/windwp/nvim-autopairs) - auto pair 
+- [autopairs](https://github.com/windwp/nvim-autopairs) - Auto Closing Pairs
