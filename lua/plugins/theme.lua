@@ -1,16 +1,15 @@
 return {
-	"ellisonleao/gruvbox.nvim",
-	config = function ()
-    require("gruvbox").setup({
-      contrast = "soft",
-      invert_selection = false,
-      invert_signs = false,
-      invert_tabline = false,
-      invert_intend_guides = false,
-      underline_match_parentheses = true,
-      underline = true,
-      transparent_mode = true,
+  'projekt0n/github-nvim-theme',
+  name = 'github-theme',
+  lazy = false,
+  priority = 1000,
+  config = function()
+    require('github-theme').setup({
+      options = {
+        transparent = true,
+      }
     })
-    vim.cmd("colorscheme gruvbox")
-	end
+
+    vim.cmd('colorscheme github_dark')
+  end
 }
