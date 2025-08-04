@@ -27,13 +27,6 @@ lspconfig.lua_ls.setup {
     },
 }
 
-
--- Typescript
-lspconfig.ts_ls.setup {}
-
-
--- Python
-lspconfig.pyright.setup {}
-
--- Go
-lspconfig.gopls.setup {}
+vim.diagnostic.config({
+  virtual_text = true,
+})
