@@ -39,3 +39,4 @@ git clone https://github.com/neovim/nvim-lspconfig ~/.config/nvim/pack/nvim/star
 - [gitsigns](https://github.com/lewis6991/gitsigns.nvim) - Git integration
 - [lualine](https://github.com/nvim-lualine/lualine.nvim) - Customizable statusline
 - [surround](https://github.com/kylechui/nvim-surround) - Add / change / delete surrounding delimeters
+- [comment](https://github.com/numToStr/Comment.nvim) - Easily comment out lines
