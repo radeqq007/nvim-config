@@ -36,3 +36,4 @@ git clone https://github.com/neovim/nvim-lspconfig ~/.config/nvim/pack/nvim/star
 - [gruvbox.nvim](https://github.com/ellisonleao/gruvbox.nvim) - Color scheme
 - [vim-wakatime](https://github.com/wakatime/vim-wakatime) - Wakatime tracking
 - [autopairs](https://github.com/windwp/nvim-autopairs) - Auto Closing Pairs
+- [gitsigns](https://github.com/lewis6991/gitsigns.nvim) - Git integration
