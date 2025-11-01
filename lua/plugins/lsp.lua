@@ -16,6 +16,7 @@ return {
           "rust_analyzer", -- Rust
           "clangd", -- C/C++
           "lua_ls", -- Lua
+          "pyright", -- Python
         },
         automatic_installation = true,
       })
@@ -31,6 +32,7 @@ return {
         "rust_analyzer", -- Rust
         "clangd", -- C
         "lua_ls", -- Lua
+        "pyright", -- Python
       }
 
       local capabilities = require("cmp_nvim_lsp").default_capabilities()
