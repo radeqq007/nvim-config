@@ -25,6 +25,10 @@ git clone https://github.com/neovim/nvim-lspconfig ~/.config/nvim/pack/nvim/star
 - `<leader>fg` - Live grep
 - `<leader>fb` - Find buffers
 - `<leader>fh` - Find help tags
+- `Tab` - Next buffer
+- `Shift + Tab` - Previous buffer
+- `<leader>bc` - Close a specified buffer
+- `<leader>bp` - Open a buffer
 
 - `gcc` - Toggles the current line using linewise comment
 - `gbc` - Toggles the current line using blockwise comment
@@ -48,3 +52,4 @@ git clone https://github.com/neovim/nvim-lspconfig ~/.config/nvim/pack/nvim/star
 - [lualine](https://github.com/nvim-lualine/lualine.nvim) - Customizable statusline
 - [surround](https://github.com/kylechui/nvim-surround) - Add / change / delete surrounding delimeters
 - [comment](https://github.com/numToStr/Comment.nvim) - Easily comment out lines
+- [Bufferline](https://github.com/akinsho/bufferline.nvim)
