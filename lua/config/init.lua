@@ -8,25 +8,20 @@ vim.opt.shiftwidth = 2
 vim.opt.softtabstop = 2
 vim.opt.tabstop = 2
 
--- LSP
-local lspconfig = require('lspconfig')
-
-
--- Lua
-lspconfig.lua_ls.setup {
-    settings = {
-        Lua = {
-            diagnostics = {
-                globals = { 'vim' },
-            },
-            workspace = {
-                library = vim.api.nvim_get_runtime_file('', true),
-                checkThirdParty = false,
-            },
-        },
-    },
-}
-
 vim.diagnostic.config({
   virtual_text = true,
 })
+
+vim.g.clipboard = {
+  name = "wl-clipboard",
+  copy = {
+    ["+"] = "wl-copy",
+    ["*"] = "wl-copy"
+  },
+  paste = {
+    ["+"] = "wl-paste -n",
+    ["*"] = "wl-paste -n"
+  },
+  cache_enabled = 0,
+}
+

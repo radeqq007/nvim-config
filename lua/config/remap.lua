@@ -13,3 +13,9 @@ vim.keymap.set("n", "<Tab>", "<cmd>BufferLineCycleNext<CR>", { desc = "Next buff
 vim.keymap.set("n", "<S-Tab>", "<cmd>BufferLineCyclePrev<CR>", { desc = "Previous buffer" })
 vim.keymap.set("n", "<leader>bc", "<cmd>BufferLinePickClose<CR>", { desc = "Pick buffer to close" })
 vim.keymap.set("n", "<leader>bp", "<cmd>BufferLinePick<CR>", { desc = "Pick buffer" })
+
+-- Clipboard 
+vim.api.nvim_set_keymap('v', '<C-S-c>', '"+y', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<C-S-v>', '"+p', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('i', '<C-S-v>', '<C-r>+', { noremap = true, silent = true })
+
