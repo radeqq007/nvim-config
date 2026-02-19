@@ -1,9 +1,9 @@
 return {
   "nvim-treesitter/nvim-treesitter",
-  version = false, -- last release is way too old and doesn't work on Windows
+  version = false,
   build = ":TSUpdate",
   event = { "BufReadPost", "BufNewFile" },
-  init = function(plugin)
+  init = function()
     require("nvim-treesitter.query_predicates")
   end,
   cmd = { "TSUpdateSync", "TSUpdate", "TSInstall" },
