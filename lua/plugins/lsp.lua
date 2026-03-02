@@ -17,7 +17,8 @@ return {
           "clangd", -- C/C++
           "lua_ls", -- Lua
           "pyright", -- Python
-          "svelte",
+          "svelte", -- svelte
+          "nim_langserver", -- nim
         },
         automatic_installation = true,
       })
@@ -33,7 +34,8 @@ return {
         "clangd", -- C
         "lua_ls", -- Lua
         "pyright", -- Python
-        "svelte",
+        "svelte", -- svelte
+        "nim_langserver", --nim
       }
 
       local capabilities = require("cmp_nvim_lsp").default_capabilities()
