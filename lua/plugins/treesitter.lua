@@ -27,6 +27,7 @@ return {
       "python",
       "toml",
       "typescript",
+      "tsx",
       "vim",
       "xml",
       "yaml",
