@@ -42,7 +42,7 @@ return {
         show_tab_indicators = true,
         show_duplicate_prefix = true,
         persist_buffer_sort = true,
-        separator_style = "slant",
+        separator_style = "thin",
         enforce_regular_tabs = false,
         always_show_bufferline = true,
         hover = {
