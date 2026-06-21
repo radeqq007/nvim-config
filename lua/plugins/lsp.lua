@@ -19,6 +19,7 @@ return {
           "pyright", -- Python
           "svelte", -- svelte
           "nim_langserver", -- nim
+          "ols", --odin
         },
         automatic_installation = true,
       })
@@ -36,6 +37,7 @@ return {
         "pyright", -- Python
         "svelte", -- svelte
         "nim_langserver", --nim
+        "ols", -- odin
       }
 
       local capabilities = require("cmp_nvim_lsp").default_capabilities()
