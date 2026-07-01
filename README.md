@@ -19,7 +19,6 @@ git clone https://github.com/radeqq007/nvim-config ~/.config/nvim
 - `Tab` - Next buffer
 - `Shift + Tab` - Previous buffer
 - `<leader>bc` - Close a specified buffer
-- `<leader>bp` - Open a buffer
 
 - `gcc` - Toggles the current line using linewise comment
 - `gbc` - Toggles the current line using blockwise comment
