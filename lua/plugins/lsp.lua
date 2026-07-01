@@ -6,7 +6,6 @@ local servers = {
   "lua_ls", -- Lua
   "pyright", -- Python
   "svelte", -- svelte
-  "nim_langserver", -- nim
   "ols", --odin
 }
 
