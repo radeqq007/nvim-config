@@ -31,7 +31,7 @@ return {
   },
 
   config = function(_, opts)
-    require("nvim-treesitter").setup(opts)   -- ← Changed
+    require("nvim-treesitter").setup(opts)
   end,
 }
 
