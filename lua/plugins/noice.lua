@@ -23,5 +23,5 @@ return {
         lsp_doc_border = false,
       },
     })
-  end
+  end,
 }

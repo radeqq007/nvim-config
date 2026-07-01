@@ -38,15 +38,15 @@ return {
           settings = {
             Lua = {
               diagnostics = {
-                globals = { "vim" }
-              }
-            }
+                globals = { "vim" },
+              },
+            },
           }
         end
 
         vim.lsp.config(server, {
           capabilities = capabilities,
-          settings = settings
+          settings = settings,
         })
       end
 

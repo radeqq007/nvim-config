@@ -16,12 +16,11 @@ vim.g.clipboard = {
   name = "wl-clipboard",
   copy = {
     ["+"] = "wl-copy",
-    ["*"] = "wl-copy"
+    ["*"] = "wl-copy",
   },
   paste = {
     ["+"] = "wl-paste -n",
-    ["*"] = "wl-paste -n"
+    ["*"] = "wl-paste -n",
   },
   cache_enabled = 0,
 }
-

@@ -14,9 +14,23 @@ return {
     indent = { enable = true },
 
     ensure_installed = {
-      "bash", "html", "javascript", "jsdoc", "json", "lua", "markdown",
-      "python", "toml", "typescript", "tsx", "vim", "xml", "yaml",
-      "go", "css", "svelte",
+      "bash",
+      "html",
+      "javascript",
+      "jsdoc",
+      "json",
+      "lua",
+      "markdown",
+      "python",
+      "toml",
+      "typescript",
+      "tsx",
+      "vim",
+      "xml",
+      "yaml",
+      "go",
+      "css",
+      "svelte",
     },
 
     incremental_selection = {
@@ -34,4 +48,3 @@ return {
     require("nvim-treesitter").setup(opts)
   end,
 }
-
