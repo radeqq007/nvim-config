@@ -4,13 +4,9 @@ A simple Neovim configuration with LSP support, autompletion, and bunch of usefu
 
 ## Instalation
 
-1. Clone this repository to your Neovim config directory:
-
 ```bash
 git clone https://github.com/radeqq007/nvim-config ~/.config/nvim
 ```
-
-2. Start Neovim
 
 ## Key Mappings
 
