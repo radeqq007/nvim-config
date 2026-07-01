@@ -20,6 +20,12 @@ git clone https://github.com/radeqq007/nvim-config ~/.config/nvim
 - `Shift + Tab` - Previous buffer
 - `<leader>bc` - Close a specified buffer
 
+- `gd` - go to definition
+- `gr` - go to references
+- `K` - Show hover information
+- `<leader>rn` - Rename symbol
+- `<leader>ca` - Show code actions
+
 - `gcc` - Toggles the current line using linewise comment
 - `gbc` - Toggles the current line using blockwise comment
 - `[count]gcc` - Toggles the number of line given as a prefix-count using linewise
