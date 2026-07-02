@@ -1,6 +1,4 @@
-# My nvim config
-
-A simple Neovim configuration with LSP support, autompletion, and bunch of useful plugins.
+# My NeoVim config
 
 ## Instalation
 
@@ -10,22 +8,27 @@ git clone https://github.com/radeqq007/nvim-config ~/.config/nvim
 
 ## Key Mappings
 
+### General
 - `<Space>` - Leader key
 - `<leader>pv` - Open file explorer
-- `<leader>ff` - Find files
-- `<leader>fg` - Live grep
-- `<leader>fb` - Find buffers
-- `<leader>fh` - Find help tags
 - `Tab` - Next buffer
 - `Shift + Tab` - Previous buffer
 - `<leader>bc` - Close a specified buffer
 
+### Telescope
+- `<leader>ff` - Find files
+- `<leader>fg` - Live grep
+- `<leader>fb` - Find buffers
+- `<leader>fh` - Find help tags
+
+### LSP
 - `gd` - go to definition
 - `gr` - go to references
 - `K` - Show hover information
 - `<leader>rn` - Rename symbol
 - `<leader>ca` - Show code actions
 
+### Comment.nvim
 - `gcc` - Toggles the current line using linewise comment
 - `gbc` - Toggles the current line using blockwise comment
 - `[count]gcc` - Toggles the number of line given as a prefix-count using linewise
@@ -33,7 +36,7 @@ git clone https://github.com/radeqq007/nvim-config ~/.config/nvim
 - `gc[count]{motion}` - (Op-pending) Toggles the region using linewise comment
 - `gb[count]{motion}` - (Op-pending) Toggles the region using blockwise comment
 
-## Plugin List
+## Plugins
 
 - [lazy.nvim](https://github.com/folke/lazy.nvim) - Plugin manager
 - [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) - Fuzzy finder
