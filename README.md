@@ -10,7 +10,8 @@ git clone https://github.com/radeqq007/nvim-config ~/.config/nvim
 
 ### General
 - `<Space>` - Leader key
-- `<leader>pv` - Open file explorer
+- `<leader>pv` - Open file explorer (Oil)
+- `-` - Go to parent directory (Oil)
 - `Tab` - Next buffer
 - `Shift + Tab` - Previous buffer
 - `<leader>bc` - Close a specified buffer
@@ -52,3 +53,4 @@ git clone https://github.com/radeqq007/nvim-config ~/.config/nvim
 - [surround](https://github.com/kylechui/nvim-surround) - Add / change / delete surrounding delimeters
 - [comment](https://github.com/numToStr/Comment.nvim) - Easily comment out lines
 - [Bufferline](https://github.com/akinsho/bufferline.nvim)
+- [oil.nvim](https://github.com/stevearc/oil.nvim) - File Explorer
