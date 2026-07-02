@@ -1,5 +1,7 @@
 vim.g.mapleader = " "
-vim.api.nvim_set_keymap("n", "<leader>pv", ":Ex<CR>", { noremap = true, silent = true })
+
+vim.keymap.set("n", "<leader>pv", "<CMD>Oil<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
 
 -- Telescope
 vim.keymap.set("n", "<leader>ff", "<cmd>Telescope find_files<CR>", { desc = "Find Files" })
