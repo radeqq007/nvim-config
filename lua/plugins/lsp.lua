@@ -19,12 +19,10 @@ return {
   {
     "williamboman/mason-lspconfig.nvim",
     dependencies = { "williamboman/mason.nvim", "neovim/nvim-lspconfig" },
-    config = function()
-      require("mason-lspconfig").setup({
-        ensure_installed = servers,
-        automatic_installation = true,
-      })
-    end,
+    opts = {
+      ensure_installed = servers,
+      automatic_installation = true,
+    },
   },
   {
     "neovim/nvim-lspconfig",

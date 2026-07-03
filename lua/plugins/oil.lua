@@ -10,6 +10,6 @@ return {
       natural_order = "fast",
     },
   },
-  dependencies = { { "nvim-mini/mini.icons", opts = {} } },
+  dependencies = { "nvim-mini/mini.icons" },
   lazy = false,
 }

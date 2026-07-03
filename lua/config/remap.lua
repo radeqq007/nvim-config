@@ -21,4 +21,3 @@ set("n", "<leader>g", "<cmd>BufferLinePick<CR>", { desc = "Pick buffer" })
 set("v", "<C-S-c>", '"+y', { noremap = true, silent = true })
 set("n", "<C-S-v>", '"+p', { noremap = true, silent = true })
 set("i", "<C-S-v>", "<C-r>+", { noremap = true, silent = true })
-
