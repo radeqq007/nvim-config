@@ -45,7 +45,7 @@ git clone https://github.com/radeqq007/nvim-config ~/.config/nvim
 - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) - LSP configuration
 - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) - Completion engine
 - [copilot.vim](https://github.com/github/copilot.vim) - GitHub Copilot
-- [gruvbox.nvim](https://github.com/ellisonleao/gruvbox.nvim) - Color scheme
+- [github theme](https://github.com/tpope/vim-surround)
 - [vim-wakatime](https://github.com/wakatime/vim-wakatime) - Wakatime tracking
 - [autopairs](https://github.com/windwp/nvim-autopairs) - Auto Closing Pairs
 - [gitsigns](https://github.com/lewis6991/gitsigns.nvim) - Git integration
