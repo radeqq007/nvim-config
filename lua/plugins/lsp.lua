@@ -21,7 +21,6 @@ return {
     dependencies = { "williamboman/mason.nvim", "neovim/nvim-lspconfig" },
     opts = {
       ensure_installed = servers,
-      automatic_installation = true,
     },
   },
   {
