@@ -50,7 +50,7 @@ git clone https://github.com/radeqq007/nvim-config ~/.config/nvim
 - [autopairs](https://github.com/windwp/nvim-autopairs) - Auto Closing Pairs
 - [gitsigns](https://github.com/lewis6991/gitsigns.nvim) - Git integration
 - [lualine](https://github.com/nvim-lualine/lualine.nvim) - Customizable statusline
-- [surround](https://github.com/kylechui/nvim-surround) - Add / change / delete surrounding delimeters
+- [surround](https://github.com/tpope/vim-surround) - Add / change / delete surrounding delimeters
 - [comment](https://github.com/numToStr/Comment.nvim) - Easily comment out lines
 - [Bufferline](https://github.com/akinsho/bufferline.nvim)
 - [oil.nvim](https://github.com/stevearc/oil.nvim) - File Explorer
