@@ -10,7 +10,7 @@ git clone https://github.com/radeqq007/nvim-config ~/.config/nvim
 
 ### General
 - `<Space>` - Leader key
-- `<leader>pv` - Open file explorer (Oil)
+- `<leader>o` - Open file explorer (Oil)
 - `-` - Go to parent directory (Oil)
 - `Tab` - Next buffer
 - `Shift + Tab` - Previous buffer

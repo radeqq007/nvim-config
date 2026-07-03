@@ -2,7 +2,7 @@ vim.g.mapleader = " "
 
 local set = vim.keymap.set
 
-set("n", "<leader>pv", "<CMD>Oil<CR>", { noremap = true, silent = true })
+set("n", "<leader>o", "<CMD>Oil<CR>", { noremap = true, silent = true, desc = "Open File Explorer" })
 set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
 
 -- Telescope
