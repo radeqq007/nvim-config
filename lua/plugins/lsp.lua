@@ -12,6 +12,7 @@ local servers = {
 return {
   {
     "williamboman/mason.nvim",
+    opts = {},
   },
   {
     "williamboman/mason-lspconfig.nvim",
@@ -42,9 +43,10 @@ return {
           capabilities = capabilities,
           settings = settings,
         })
+
+        vim.lsp.enable(server)
       end
 
-      vim.lsp.enable(servers)
 
       vim.api.nvim_create_autocmd("LspAttach", {
         callback = function(args)
