@@ -54,3 +54,4 @@ git clone https://github.com/radeqq007/nvim-config ~/.config/nvim
 - [comment](https://github.com/numToStr/Comment.nvim) - Easily comment out lines
 - [Bufferline](https://github.com/akinsho/bufferline.nvim)
 - [oil.nvim](https://github.com/stevearc/oil.nvim) - File Explorer
+- [cord.nvim](https://github.com/vyfor/cord.nvim) - Discord Presence
