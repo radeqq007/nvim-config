@@ -37,6 +37,12 @@ git clone https://github.com/radeqq007/nvim-config ~/.config/nvim
 - `gc[count]{motion}` - (Op-pending) Toggles the region using linewise comment
 - `gb[count]{motion}` - (Op-pending) Toggles the region using blockwise comment
 
+### Trouble.nvim
+- `<leader>xx` - Show diagnostics
+- `<leader>xX` - Show diagnostics for the current buffer
+- `<leader>xl` - Show LSP Definitions / References / ...
+- `<leader>xq` - Show quickfix list
+
 ## Plugins
 
 - [lazy.nvim](https://github.com/folke/lazy.nvim) - Plugin manager
@@ -45,7 +51,7 @@ git clone https://github.com/radeqq007/nvim-config ~/.config/nvim
 - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) - LSP configuration
 - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) - Completion engine
 - [copilot.vim](https://github.com/github/copilot.vim) - GitHub Copilot
-- [github theme](https://github.com/tpope/vim-surround)
+- [github theme](https://github.com/projekt0n/github-nvim-theme)
 - [vim-wakatime](https://github.com/wakatime/vim-wakatime) - Wakatime tracking
 - [autopairs](https://github.com/windwp/nvim-autopairs) - Auto Closing Pairs
 - [gitsigns](https://github.com/lewis6991/gitsigns.nvim) - Git integration
