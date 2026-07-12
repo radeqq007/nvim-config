@@ -61,3 +61,5 @@ git clone https://github.com/radeqq007/nvim-config ~/.config/nvim
 - [Bufferline](https://github.com/akinsho/bufferline.nvim)
 - [oil.nvim](https://github.com/stevearc/oil.nvim) - File Explorer
 - [cord.nvim](https://github.com/vyfor/cord.nvim) - Discord Presence
+- [trouble.nvim](https://github.com/folke/trouble.nvim) - LSP diagnostics, references etc. 
+- [which-key.nvim](https://github.com/folke/which-key.nvim) - Keymaps popup
