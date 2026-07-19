@@ -1,4 +1,4 @@
-# My NeoVim config
+# My Neovim config
 
 ## Instalation
 
